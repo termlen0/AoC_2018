@@ -1,4 +1,4 @@
-#!/usr/bin/envy python
+#!/usr/bin/env python
 
 
 def compute_frequency(data):
@@ -21,6 +21,7 @@ def do_operation(freq, next_freq):
 
 
 def find_repeat(data):
+    '''Day 1 Part 2'''
     global seen_frequencies
     if len(seen_frequencies) == 0:
         seen_frequencies.append(0)
